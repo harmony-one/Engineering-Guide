@@ -25,30 +25,19 @@ We recommend following the Google coding style guide ([https://google.github.io/
 
 ## **Pull Request Naming Conventions**
 
-When creating a Pull Request (PR), using a consistent and descriptive naming convention is essential. A well-named PR makes it easier for other team members to quickly understand what changes the PR contains and why.
+We follow a standardized format for naming our pull requests to help with organization and readability. The format we use is as follows:
 
-We recommend using the following naming convention:
+`package/path: change XYZ`
 
-`TYPE: Short description of the change`
+Where `package/path` refers to the affected package or path, and "change XYZ" is a short summary of the change being made. For example, if we are making a change to the "utils" package to fix a bug, we would use the following format:
 
-Where `TYPE:` is one of the following:
-- **feat**: A new feature
-- **fix**: A bug fix
-- **docs**: Documentation changes
-- **refactor**: Refactoring of existing code
-- **test**: Adding or updating tests
-- **chore**: Changes to build or development tools
+`utils: fix bug in helper function`
 
-For example, a Pull Request that adds a new endpoint to the API might have the following name:
+Using this naming convention makes it easy for reviewers and contributors to quickly understand the scope of the change, which can help with prioritization and decision-making. It also helps with maintaining a clean and organized git history.
 
-`feat: Add new API endpoint for user registration`
+When creating a pull request, please ensure that the name accurately reflects the changes being made, and avoid using vague or generic titles like "update" or "fix." Instead, provide a clear and concise summary of the change.
 
-Using a consistent naming convention also makes it easier to search for and organize PRs. If your team uses an automated PR management tool, such as GitHub's Pull Request feature, a well-named PR will be automatically categorized and easier to track.
-
-In addition to the naming convention, it's crucial to provide a clear and detailed description of the changes in the PR. This helps other team members understand the changes without reviewing the entire codebase.
-
-By following these naming conventions and providing clear descriptions, we can improve the efficiency and effectiveness of our Pull Request process, leading to a more streamlined and productive development cycle.
-
+In addition to the pull request name, we also encourage including a detailed description of the changes being made, along with any relevant documentation or testing information. This can help with understanding the context and impact of the changes, and can also help with reviewing and testing.
 
 ## **Version Control**
 
