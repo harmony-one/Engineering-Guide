@@ -23,6 +23,33 @@ We recommend following the Google coding style guide ([https://google.github.io/
 - Performance - We recommend optimizing our code for performance by using efficient algorithms, minimizing I/O, and avoiding unnecessary computations.
 - Security - We recommend ensuring that our code is secure by following best practices for cryptography, authentication, and authorization.
 
+## **Pull Request Naming Conventions**
+
+When creating a Pull Request (PR), using a consistent and descriptive naming convention is essential. A well-named PR makes it easier for other team members to quickly understand what changes the PR contains and why.
+
+We recommend using the following naming convention:
+
+`[TYPE] Short description of the change`
+
+Where `[TYPE]` is one of the following:
+- **feat**: A new feature
+- **fix**: A bug fix
+- **docs**: Documentation changes
+- **refactor**: Refactoring of existing code
+- **test**: Adding or updating tests
+- **chore**: Changes to build or development tools
+
+For example, a Pull Request that adds a new endpoint to the API might have the following name:
+
+`[feat] Add new API endpoint for user registration`
+
+Using a consistent naming convention also makes it easier to search for and organize PRs. If your team uses an automated PR management tool, such as GitHub's Pull Request feature, a well-named PR will be automatically categorized and easier to track.
+
+In addition to the naming convention, it's crucial to provide a clear and detailed description of the changes in the PR. This helps other team members understand the changes without reviewing the entire codebase.
+
+By following these naming conventions and providing clear descriptions, we can improve the efficiency and effectiveness of our Pull Request process, leading to a more streamlined and productive development cycle.
+
+
 ## **Version Control**
 
 We use Git for version control, and we follow these practices:
