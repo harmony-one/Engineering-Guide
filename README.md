@@ -29,9 +29,9 @@ When creating a Pull Request (PR), using a consistent and descriptive naming con
 
 We recommend using the following naming convention:
 
-`[TYPE] Short description of the change`
+`TYPE: Short description of the change`
 
-Where `[TYPE]` is one of the following:
+Where `TYPE:` is one of the following:
 - **feat**: A new feature
 - **fix**: A bug fix
 - **docs**: Documentation changes
@@ -41,7 +41,7 @@ Where `[TYPE]` is one of the following:
 
 For example, a Pull Request that adds a new endpoint to the API might have the following name:
 
-`[feat] Add new API endpoint for user registration`
+`feat: Add new API endpoint for user registration`
 
 Using a consistent naming convention also makes it easier to search for and organize PRs. If your team uses an automated PR management tool, such as GitHub's Pull Request feature, a well-named PR will be automatically categorized and easier to track.
 
