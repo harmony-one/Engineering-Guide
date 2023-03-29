@@ -23,6 +23,22 @@ We recommend following the Google coding style guide ([https://google.github.io/
 - Performance - We recommend optimizing our code for performance by using efficient algorithms, minimizing I/O, and avoiding unnecessary computations.
 - Security - We recommend ensuring that our code is secure by following best practices for cryptography, authentication, and authorization.
 
+## **Pull Request Naming Conventions**
+
+We follow a standardized format for naming our pull requests to help with organization and readability. The format we use is as follows:
+
+`package/path: change XYZ`
+
+Where `package/path` refers to the affected package or path, and "change XYZ" is a short summary of the change being made. For example, if we are making a change to the "utils" package to fix a bug, we would use the following format:
+
+`utils: fix bug in helper function`
+
+Using this naming convention makes it easy for reviewers and contributors to quickly understand the scope of the change, which can help with prioritization and decision-making. It also helps with maintaining a clean and organized git history.
+
+When creating a pull request, please ensure that the name accurately reflects the changes being made, and avoid using vague or generic titles like "update" or "fix." Instead, provide a clear and concise summary of the change.
+
+In addition to the pull request name, we also encourage including a detailed description of the changes being made, along with any relevant documentation or testing information. This can help with understanding the context and impact of the changes, and can also help with reviewing and testing.
+
 ## **Version Control**
 
 We use Git for version control, and we follow these practices:
