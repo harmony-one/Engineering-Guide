@@ -172,6 +172,11 @@ contract Counter {
     }
 }
 ```
+
+## **Github Issues Policy**
+	
+[Click here for Github Issues Cleanup Policies and Procedures](ISSUES.md "ISSUES.md")
+
 ## **Conclusion**
 
 By following these style and best practices, we can create high quality and maintainable code that is consistent, readable, and efficient. By working together and adhering to these guidelines, we can ensure that our codebase is robust, reliable, and secure.
